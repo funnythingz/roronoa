@@ -1,7 +1,7 @@
 # Roronoa
 
 [![Build Status](https://travis-ci.org/funnythingz/roronoa.svg)](https://travis-ci.org/funnythingz/roronoa)
-[![Coverage Status](https://coveralls.io/repos/funnythingz/roronoa/badge.png)](https://coveralls.io/r/funnythingz/roronoa)
+[![Coverage Status](https://coveralls.io/repos/funnythingz/roronoa/badge.png?branch=master)](https://coveralls.io/r/funnythingz/roronoa?branch=master)
 
 Time is zorome
 
