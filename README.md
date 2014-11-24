@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/funnythingz/roronoa.svg)](https://travis-ci.org/funnythingz/roronoa)
 
-zorome is beautiful
+Time is zorome
 
 ## Installation
 
@@ -31,7 +31,13 @@ default is `DateTime.now` scan.
 can use option
 
 ```
-% Roronoa::Zoro.eye(2014,11,11,1,11)
+% Roronoa::Zoro.eye(2014,11,11,1,11)   # => '1:11'
+```
+
+not zorome result `nil`
+
+```
+% Roronoa::Zoro.eye(2014,11,11,1,5)   # => nil
 ```
 
 ## Contributing
