@@ -23,22 +23,35 @@ Or install it yourself as:
 
 ## Usage
 
+required
+
+```ruby
+require 'roronoa'
+```
+
 default is `DateTime.now` scan.
 
-```
-% Roronoa::Zoro.eye
+```ruby
+Roronoa::Zoro.eye
 ```
 
 can use option
 
-```
-% Roronoa::Zoro.eye(2014,11,11,1,11)   # => '1:11'
+```ruby
+Roronoa::Zoro.eye(2014,11,11,1,11)   # => '1:11'
 ```
 
 not zorome result `nil`
 
+```ruby
+Roronoa::Zoro.eye(2014,11,11,1,5)   # => nil
 ```
-% Roronoa::Zoro.eye(2014,11,11,1,5)   # => nil
+
+### command
+
+```
+% gem install roronoa
+% roronoa
 ```
 
 ## Contributing

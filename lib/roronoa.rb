@@ -8,9 +8,7 @@ module Roronoa
       result = ''
       0.upto(23) do |count|
         result = str_time.match(/^[#{count}]+:[#{count}]+$/).nil? ? nil : str_time.to_s
-        unless result.nil?
-          break
-        end
+        break unless result.nil?
       end
       result
     end

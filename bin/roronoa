@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'roronoa'
+
+zorome = Roronoa::Zoro.eye
+
+if zorome.nil?
+    puts 'not zorome'
+else
+    puts zorome
+end
