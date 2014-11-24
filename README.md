@@ -51,7 +51,20 @@ Roronoa::Zoro.eye(2014,11,11,1,5)   # => nil
 
 ```
 % gem install roronoa
+```
+
+if datetime is `20YY.mm.dd 11:11`
+
+```
 % roronoa
+11:11
+```
+
+when not zorome
+
+```
+% roronoa
+not zorome
 ```
 
 ## Contributing
