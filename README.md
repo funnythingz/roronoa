@@ -10,7 +10,7 @@ Time is zorome
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'roronoa'
+gem 'roronoa', '~> 1.0.2'
 ```
 
 And then execute:
