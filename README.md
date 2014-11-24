@@ -1,6 +1,8 @@
 # Roronoa
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/funnythingz/roronoa.svg)](https://travis-ci.org/funnythingz/roronoa)
+
+zorome is beautiful
 
 ## Installation
 
@@ -20,12 +22,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+default is `DateTime.now` scan.
+
+```
+% Roronoa::Zoro.eye
+```
+
+can use option
+
+```
+% Roronoa::Zoro.eye(2014,11,11,1,11)
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/roronoa/fork )
+1. Fork it ( https://github.com/funnythingz/roronoa/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+&copy; funnythingz
