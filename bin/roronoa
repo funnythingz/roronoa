@@ -4,8 +4,4 @@ require 'roronoa'
 
 zorome = Roronoa::Zoro.eye
 
-if zorome.nil?
-    puts 'not zorome'
-else
-    puts zorome
-end
+puts zorome unless zorome.nil?

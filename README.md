@@ -10,7 +10,7 @@ Time is zorome
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'roronoa', '~> 1.0.2'
+gem 'roronoa', '~> 1.0.3'
 ```
 
 And then execute:
@@ -59,13 +59,7 @@ if datetime is `20YY.mm.dd 11:11`
 % roronoa
 11:11
 ```
-
-when not zorome
-
-```
-% roronoa
-not zorome
-```
+void when not zorome
 
 ## Contributing
 
