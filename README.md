@@ -38,13 +38,13 @@ Roronoa::Zoro.eye
 can use option
 
 ```ruby
-Roronoa::Zoro.eye(2014,11,11,1,11)   # => '1:11'
+Roronoa::Zoro.eye(DateTime.new(2014,11,11,1,11))   # => '1:11'
 ```
 
 not zorome result `nil`
 
 ```ruby
-Roronoa::Zoro.eye(2014,11,11,1,5)   # => nil
+Roronoa::Zoro.eye(DateTime.new(2014,11,11,1,5))   # => nil
 ```
 
 ### command
