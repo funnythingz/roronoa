@@ -7,7 +7,7 @@ module Roronoa
       str_time = date.strftime('%H:%M').gsub(/^0/, '')
       result = ''
       0.upto(23) do |count|
-        result = str_time.match(/^[#{count}]+:[#{count}]+$/).nil? ? nil : str_time.to_s
+        result = str_time.match(/^#{count}+:#{count}+$/).nil? ? nil : str_time.to_s
         break unless result.nil?
       end
       result
